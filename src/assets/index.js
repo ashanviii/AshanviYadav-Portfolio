@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import hub from "./hub.png";
+import linkedin from "./linkedin.png";
+import behance from "./behance.png";
+import hashnode from "./hashnode.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,11 +36,14 @@ import tripguide from "./tripguide.png";
 
 
 export {
+  hashnode,
+  behance,
   logo,
   backend,
   creator,
   mobile,
   web,
+  hub,
   github,
   menu,
   close,
@@ -60,4 +67,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  linkedin,
 };

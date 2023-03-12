@@ -23,8 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    hub,
+    linkedin,
+    behance,
+    hashnode,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -39,6 +43,25 @@ import {
       title: "Contact",
     },
   ];
+
+  const morelinks = [
+    {
+     title: "Hub",
+     icon: hub,
+    },
+    {
+     title: "LinkedIn",
+     icon: linkedin,
+    },
+    {
+     title: "Behance",
+     icon: behance,
+    },
+    {
+     title: "Hashnode",
+     icon: hashnode,
+    },
+   ]; 
   
   const services = [
     {
@@ -262,4 +285,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { morelinks, services, technologies, experiences, testimonials, projects };
