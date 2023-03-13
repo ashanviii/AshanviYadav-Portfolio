@@ -10,6 +10,8 @@ import hub from "./hub.png";
 import linkedin from "./linkedin.png";
 import behance from "./behance.png";
 import hashnode from "./hashnode.png";
+import resume from "./resume.pdf";
+import twitter from "./twitter.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -68,4 +70,6 @@ export {
   jobit,
   tripguide,
   linkedin,
+  resume,
+  twitter,
 };

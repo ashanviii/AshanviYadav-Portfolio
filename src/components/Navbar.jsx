@@ -20,7 +20,7 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, "link");
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -48,21 +48,27 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Portfolio</span>
           </p>
         </Link>
-
+     
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover: text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.url ? (
+    <a href={nav.url} target='_blank' rel='https://drive.google.com/file/d/1gTio18Ur0S2-bxHis-WPsZyzPmeVvvqt/view?usp=sharing'>
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
-
+        
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -86,6 +92,8 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
+                    setActive(nav.url);
+                    setActive(nav.target);
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>

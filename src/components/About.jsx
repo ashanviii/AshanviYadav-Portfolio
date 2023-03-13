@@ -17,7 +17,7 @@ const ServiceCard = ({ index, title, icon }) => (
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 50,
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      Hey there, I'm Ashanvi and I'm a college student with experience in several different areas.
+      I'm great at UI/UX design, which is all about making websites and apps look good and work well.
+      I am also learning to work with cloud which means I can design and build secure and scalable solutions using cloud infrastructure. 
+      and As a DevOps professional, I'm really good at streamlining the software development process. 
+      That means I make sure everything runs smoothly and deployment is easy. And as a web developer, I can use different programming languages such as Javascript, Java and frameworks like React and Three.js to build amazing web applications that meet business needs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

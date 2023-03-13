@@ -8,6 +8,7 @@ import {
     html,
     css,
     reactjs,
+    twitter,
     redux,
     tailwind,
     nodejs,
@@ -42,25 +43,44 @@ import {
       id: "contact",
       title: "Contact",
     },
+  {
+    id: "social",
+    title: "Links",
+  },
+  {
+    id: "resume",
+    title: "Resume",
+    url: "https://drive.google.com/file/d/1gTio18Ur0S2-bxHis-WPsZyzPmeVvvqt/view?usp=sharing",
+    target: "_blank",
+  },
   ];
 
   const morelinks = [
     {
      title: "Hub",
      icon: hub,
+     link: "https://github.com/ashanviii",
     },
     {
      title: "LinkedIn",
      icon: linkedin,
+     link: "https://www.linkedin.com/in/ashanvi-yadav/",
     },
     {
      title: "Behance",
      icon: behance,
+     link: "https://www.behance.net/ashanvi",
     },
     {
      title: "Hashnode",
      icon: hashnode,
+     link: "https://www.upwork.com/freelancers/~01ca2c0302a51b7832",
     },
+    {
+      title: "Twitter",
+      icon: twitter,
+      link: "https://twitter.com/ashanvii",
+     },
    ]; 
   
   const services = [
@@ -139,60 +159,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "UX Designer | Researcher",
+      company_name: "Adobe ",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#ffffff",
+      date: "May 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analyzed research data and synthesized it into actionable insights.",
+        "Designed user interfaces for 7-10 different features that are intuitive, visually appealing, and accessible.",
+        "Maintained consistency across design systems for 3-5 different products and maintained style guides for each.",
+        "Worked collaboratively with other members of the UX team to inform design decisions and improve user experience.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Core Member ",
+      company_name: "Google Developer Group",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I attend and present at developer conferences and events to share my expertise and promote Google technologies.",
+        "I write technical blog posts and documentation to educate and inform developers about Google technologies and best practices.",
+        "I collaborate with other Core Members to provide technical guidance and support for Google developer products and services.",
+        "Provided technical support and guidance to Google Developer Groups (GDGs) and other developer communities.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "UI/UX Designer",
+      company_name: "BrightPod",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked closely with product managers to define project requirements and deliverables.",
+        "Conducted usability testing and analyzed results to improve designs.",
+        "Participated in agile development process and iterated on designs based on feedback.",
+        "Conducted user research and testing to inform design decisions.",
       ],
     },
   ];
   
-  const testimonials = [
+ /* const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -217,29 +224,24 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-  ];
-  
+  ]; */
   const projects = [
     {
-      name: "Car Rent",
+      name: "PathFinding Visualizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "To create a pathfinding visualization project using Java and the A* algorithm, I started by defining the problem I wanted to solve. In this case, I wanted to create a pathfinding algorithm that can find the shortest path between two points in a 2D grid. I also defined the constraints and requirements for the project, such as the user interface and the specific programming tools I wanted to use.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "A* algorithm",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ashanviii/A-Pathfinding-Visualization-Java",
     },
     {
       name: "Job IT",
@@ -285,4 +287,4 @@ import {
     },
   ];
   
-  export { morelinks, services, technologies, experiences, testimonials, projects };
+  export { morelinks, services, technologies, experiences, projects };
