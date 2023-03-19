@@ -159,11 +159,11 @@ import {
   
   const experiences = [
     {
-      title: "UX Designer | Researcher",
-      company_name: "Adobe ",
+      title: "Frontend Developer (Team Project)",
+      company_name: "GDG Bhopal",
       icon: starbucks,
       iconBg: "#ffffff",
-      date: "May 2022 - July 2022",
+      date: "Feb 2022 - Present",
       points: [
         "Analyzed research data and synthesized it into actionable insights.",
         "Designed user interfaces for 7-10 different features that are intuitive, visually appealing, and accessible.",
@@ -235,16 +235,12 @@ import {
           name: "Java",
           color: "blue-text-gradient",
         },
-        {
-          name: "A* algorithm",
-          color: "green-text-gradient",
-        },
       ],
       image: carrent,
       source_code_link: "https://github.com/ashanviii/A-Pathfinding-Visualization-Java",
     },
     {
-      name: "Job IT",
+      name: "MiDalle-e",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
